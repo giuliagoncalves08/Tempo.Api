@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #051322;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Campo de entrada */
+input[type="text"] {
+  width: calc(100% - 22px); /* Ajusta a largura para o padding do botão */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Botão */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: #011622;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Mensagem de erro */
+p {
+  color: #e40800;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Previsão do tempo */
+.previsao {
+  margin-top: 20px;
+}
+
+.previsao h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.previsao p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.previsao img {
+  margin-top: 10px;
+  width: 100px; 
+  height: auto;
+}
